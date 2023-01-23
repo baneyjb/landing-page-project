@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+header {
+    display: flex;
+    background-color: #1f2937;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+    color: white;
+    height: 5vh;
+    align-items: center;
+}
+
+header h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.cta-section {
+    display: flex;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 30vh;
+    background-color: #1f2937;
+    justify-content: space-between;
+}
+
+.cta-section h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 2%;
+}
+
+.cta-section p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 2%;
+}
+
+.cta-section .cta-text {
+    width: 28%;
+}
+
+.cta-section .cta-text button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 20%;
+    height: 10%;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+}
+
+.cta-section .cta-image {
+    width: 800px;
+    height: 200px;
+    background-color: lightgrey;
+    margin-right: 3%;
+}
+
+.info-section {
+    /* padding-left: 10%; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+.info-section h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-images {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-left: 14%;
+    padding-right: 6%;
+}
+
+.info-images .info-img {
+    width: 160px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 6px;
+}
+
+.info-images p {
+    width: 50%;
+    text-align: center;
+    padding-top: 2%;
+}
